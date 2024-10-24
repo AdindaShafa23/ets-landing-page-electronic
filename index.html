@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Electronics Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Lafayette Electro</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#" id="member-menu">Member</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Best Seller Products</h1>
+        <div class="products">
+            <div class="product">
+                <img src="https://th.bing.com/th/id/OIP.eb3qnTZw-__VIz6ORyHqiAHaFj?w=234&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Product 1">
+                <h2>portable air conditioner</h2>
+                <p>Rp.7.500.000.00</p>
+                <button class="buy-now">Buy Now</button>
+            </div>
+         
+            <div class="product">
+                <img src="https://th.bing.com/th/id/OIP.C8m5zxDJI51cz5KXLcCY-gHaE7?w=279&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Product 1">
+                <h2>Apple Ipad Air</h2>
+                <p>Rp. 18.350.000.00</p>
+                <button class="buy-now">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <img src="data:image/jpeg;base64,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" alt="Product 1">
+                <h2>HTC 5G Hub Wireless Router</h2>
+                <p>Rp. 22.560.000.00</p>
+                <button class="buy-now">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <img src="https://th.bing.com/th/id/OIP.dlMeUN8E6gexBZVN-QoiLQHaFH?w=214&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Product 1">
+                <h2>Mini Drone</h2>
+                <p>Rp. 46.550.000.00</p>
+                <button class="buy-now">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <img src="https://th.bing.com/th/id/OIP.P1083qBqLFosPbN0zSnpJgHaFT?w=225&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Product 1">
+                <h2>Gaming Chair with Air Conditioner</h2>
+                <p>Rp. 67.890.000.00</p>
+                <button class="buy-now">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <img src="https://th.bing.com/th/id/OIP.u-OrA9u5kP1c9qcuNiuOcgAAAA?w=249&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Product 1">
+                <h2>Shark X PC</h2>
+                <p>Rp. 689.450.000.00</p>
+                <button class="buy-now">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <img src="https://th.bing.com/th/id/OIP.CMSdP7QipGa6mO-Y77KWNgHaH9?w=169&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Product 1">
+                <h2>floating bluetooth speakers</h2>
+                <p>Rp. 187.440.000.00</p>
+                <button class="buy-now">Buy Now</button>
+            </div>
+        </div>
+
+        <div id="member-section" style="display:none;">
+            <h3>Join Our Membership</h3>
+            <form id="member-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <button type="submit">Submit</button>
+            </form>
+            <h4>Registered Members</h4>
+            <table id="members-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Registered members will be appended here -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>Store Address: 1234 Electronics St, Tech City, TX 75001</p>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
